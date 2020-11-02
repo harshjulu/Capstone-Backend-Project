@@ -64,7 +64,6 @@ public class StateEntity implements Serializable {
         return stateName;
     }
 
-    public void setStateName(String stateName) {
-        this.stateName = stateName;
+    
     }
 }
