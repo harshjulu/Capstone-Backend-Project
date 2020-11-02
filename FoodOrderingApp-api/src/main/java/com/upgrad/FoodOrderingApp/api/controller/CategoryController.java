@@ -88,7 +88,7 @@ public class CategoryController {
                 .categoryName(categoryEntity.getCategoryName())
                 .id(UUID.fromString(categoryEntity.getUuid()))
                 .itemList(itemLists);
-        return new ResponseEntity<CategoryDetailsResponse>(categoryDetailsResponse,HttpStatus.OK);
+        
     }
 
 }
