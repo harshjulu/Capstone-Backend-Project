@@ -431,8 +431,7 @@ public class AddressControllerTest {
                 .andExpect(status().isOk())
                 .andReturn().getResponse().getContentAsString();
 
-        final StatesListResponse statesLists = new ObjectMapper().readValue(response, StatesListResponse.class);
-        assertNull(statesLists.getStates());
+        
     }
 
 }
