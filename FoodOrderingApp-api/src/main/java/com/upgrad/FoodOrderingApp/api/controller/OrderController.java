@@ -230,7 +230,7 @@ public class OrderController {
                     .orders(orderLists);
             return new ResponseEntity<CustomerOrderResponse>(customerOrderResponse,HttpStatus.OK);
         }else {
-            return new ResponseEntity<CustomerOrderResponse>(new CustomerOrderResponse(),HttpStatus.OK);//If no order created by customer empty array is returned.
+            //If no order created by customer empty array is returned.
         }
 
 
