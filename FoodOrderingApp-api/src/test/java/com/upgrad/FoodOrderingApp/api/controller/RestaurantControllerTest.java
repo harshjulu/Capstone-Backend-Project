@@ -456,15 +456,6 @@ public class RestaurantControllerTest {
         final String addressId = UUID.randomUUID().toString();
         final AddressEntity addressEntity = new AddressEntity(addressId, "a/b/c", "someLocality", "someCity", "100000", stateEntity);
 
-        final RestaurantEntity restaurantEntity = new RestaurantEntity();
-        final String restaurantId = UUID.randomUUID().toString();
-        restaurantEntity.setUuid(restaurantId);
-        restaurantEntity.setAddress(addressEntity);
-        restaurantEntity.setAvgPrice(123);
-        restaurantEntity.setCustomerRating(3.4);
-        restaurantEntity.setNumberCustomersRated(200);
-        restaurantEntity.setPhotoUrl("someurl");
-        restaurantEntity.setRestaurantName("Famous Restaurant");
-        return restaurantEntity;
+       
     }
 }
