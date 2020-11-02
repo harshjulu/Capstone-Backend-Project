@@ -169,7 +169,7 @@ public class AddressController {
             return new ResponseEntity<StatesListResponse>(statesListResponse, HttpStatus.OK);
         }else
             //Return empty set if stateEntities is empty.
-            
+            return new ResponseEntity<StatesListResponse>(new StatesListResponse(),HttpStatus.OK);
     }
 
 
