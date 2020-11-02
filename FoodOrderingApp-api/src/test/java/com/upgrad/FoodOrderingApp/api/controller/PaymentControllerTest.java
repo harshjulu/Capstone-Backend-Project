@@ -49,7 +49,11 @@ public class PaymentControllerTest {
                 .perform(get("/payment").contentType(MediaType.APPLICATION_JSON_UTF8_VALUE))
                 .andExpect(status().isOk())
                 .andReturn().getResponse().getContentAsString();
-
+       final PaymentListResponse paymentResponses = new ObjectMapper().readValue(response, PaymentListResponse.class);
+        assertEquals(paymentResponses.getPaymentMethods().size(), 1);
+        assertEquals(paymentResponses.getPaymentMethods().get(0).getId().toString(), paymentId);
+        assertEquals(paymentResponses.getPaymentMethods().get(0).getPaymentName(), "samplePaymentName");
+        verify(mockPaymentService, times(1)).getAllPaymentMethods();
         
     }
 
