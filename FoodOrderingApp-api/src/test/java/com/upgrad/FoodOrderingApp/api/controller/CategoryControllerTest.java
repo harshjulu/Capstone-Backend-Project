@@ -131,7 +131,9 @@ public class CategoryControllerTest {
                 .perform(get("/category").contentType(MediaType.APPLICATION_JSON_UTF8_VALUE))
                 .andExpect(status().isOk())
                 .andReturn().getResponse().getContentAsString();
-
+       final CategoriesListResponse categoriesListResponse = new ObjectMapper().readValue(response, CategoriesListResponse.class);
+        assertNull(categoriesListResponse.getCategories());
+        verify(mockCategoryService, times(1)).getAllCategoriesOrderedByName();
         
     }
 
