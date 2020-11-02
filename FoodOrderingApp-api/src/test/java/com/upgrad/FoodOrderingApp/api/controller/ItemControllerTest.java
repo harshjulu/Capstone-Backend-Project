@@ -74,9 +74,7 @@ public class ItemControllerTest {
                 .thenThrow(new RestaurantNotFoundException("RNF-001", "No restaurant by this id"));
 
         mockMvc
-                .perform(get("/item/restaurant/some_restaurant_id").contentType(MediaType.APPLICATION_JSON_UTF8_VALUE))
-                .andExpect(status().isNotFound())
-                .andExpect(jsonPath("code").value("RNF-001"));
+                
     }
 
 }
