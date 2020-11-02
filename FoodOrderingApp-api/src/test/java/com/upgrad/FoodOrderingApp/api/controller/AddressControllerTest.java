@@ -430,7 +430,8 @@ public class AddressControllerTest {
                 .perform(get("/states").contentType(MediaType.APPLICATION_JSON_UTF8_VALUE))
                 .andExpect(status().isOk())
                 .andReturn().getResponse().getContentAsString();
-
+       final StatesListResponse statesLists = new ObjectMapper().readValue(response, StatesListResponse.class);
+        assertNull(statesLists.getStates());
         
     }
 
