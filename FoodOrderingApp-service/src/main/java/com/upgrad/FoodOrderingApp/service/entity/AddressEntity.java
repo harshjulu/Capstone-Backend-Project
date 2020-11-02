@@ -129,7 +129,6 @@ public class AddressEntity implements Serializable {
         return state;
     }
 
-    public void setState(StateEntity state) {
-        this.state = state;
+    
     }
 }
