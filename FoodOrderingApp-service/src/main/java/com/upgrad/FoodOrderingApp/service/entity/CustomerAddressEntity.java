@@ -52,7 +52,6 @@ public class CustomerAddressEntity implements Serializable {
         return address;
     }
 
-    public void setAddress(AddressEntity address) {
-        this.address = address;
+   
     }
 }
