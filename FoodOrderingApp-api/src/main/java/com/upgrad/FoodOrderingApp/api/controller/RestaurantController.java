@@ -331,6 +331,6 @@ public class RestaurantController {
                 .id(UUID.fromString(restaurantUuid))
                 .status("RESTAURANT RATING UPDATED SUCCESSFULLY");
 
-        return new ResponseEntity<RestaurantUpdatedResponse>(restaurantUpdatedResponse,HttpStatus.OK);
+        
     }
 }
