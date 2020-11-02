@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2187793b-e64d-48fa-93dc-77d9c32a3738" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>categoryName</find>
+      <find>view/update/delete any one</find>
+      <find>System</find>
+      <find>authori</find>
+      <find>coupon</find>
+      <find>authorization</find>
+      <find>auth</find>
+      <find>Update</find>
+      <find>delete</find>
+      <find>RestaurantUpdatedResponse</find>
+      <find>RNF-003</find>
+      <find>INF</find>
+      <find>CNF-004</find>
+      <find>ANF-00</find>
+      <find>ANF-001</find>
+      <find>81</find>
+      <find>jackson</find>
+      <find>jacks</find>
+      <find>CNF</find>
+      <find>getCategoriesByRestaurant</find>
+      <find>getItemsByCategoryAndRestaurant</find>
+      <find>categoryService</find>
+      <find>restaurantService</find>
+      <find>can</find>
+      <find>restaurantByUUID</find>
+      <find>restaurantsByName</find>
+      <find>restaurantByCategory</find>
+      <find>updateRestaurantRating</find>
+      <find>getCouponByCouponName</find>
+      <find>getCategoryById</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>pincode</replace>
+      <replace>NON_VEG</replace>
+      <replace>VEG</replace>
+      <replace>customer</replace>
+      <replace>Customer</replace>
+      <replace>FoodOrderingApp</replace>
+      <replace>category_items</replace>
+      <replace>1</replace>
+      <replace>0</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jJks3zSJQ70xWImyh9G61XwF4N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550834160886" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/FoodOrderingApp-api/src/main/java/com/upgrad/FoodOrderingApp/api/controller" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\FoodOrderingAppBackend\FoodOrderingApp-db\src\main\resources\config" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.upgrad.FoodOrderingApp.api.controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.upgrad.FoodOrderingApp.service.exception" />
+      <recent name="com.upgrad.FoodOrderingApp.api.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\razi.akram\Downloads\FoodOrderingAppBackend\FoodOrderingApp-api\src\test\java\com\upgrad\FoodOrderingApp\api\controller" />
+      <recent name="C:\Users\razi.akram\Downloads\FoodOrderingAppBackend\FoodOrderingApp-api\src\main\resources\endpoints" />
+      <recent name="C:\Users\razi.akram\Documents\FoodOrderingAppBackend\FoodOrderingApp-api\src\test\java\com\upgrad\FoodOrderingApp\api\controller" />
+      <recent name="C:\Users\Admin\Documents\FoodOrderingAppBackend\FoodOrderingApp-service\src\main\java\com\upgrad\FoodOrderingApp\service\exception" />
+      <recent name="C:\Users\Admin\Documents\FoodOrderingAppBackend\FoodOrderingApp-api\src\main\java\com\upgrad\FoodOrderingApp\api\config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FoodOrderingAppApiApplication">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FoodOrderingAppApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.upgrad.FoodOrderingApp.api.FoodOrderingAppApiApplication" />
+      <module name="FoodOrderingApp-api" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.upgrad.FoodOrderingApp.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategoryControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FoodOrderingApp-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.upgrad.FoodOrderingApp.api.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.upgrad.FoodOrderingApp.api.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.upgrad.FoodOrderingApp.api.controller.CategoryControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FoodOrderingApp-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.upgrad.FoodOrderingApp.api.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.upgrad.FoodOrderingApp.api.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.upgrad.FoodOrderingApp.api.controller.OrderControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestaurantControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FoodOrderingApp-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.upgrad.FoodOrderingApp.api.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.upgrad.FoodOrderingApp.api.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.upgrad.FoodOrderingApp.api.controller.RestaurantControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestaurantControllerTest.shouldNotUpdateRestaurantIfRestaurantIdIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FoodOrderingApp-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.upgrad.FoodOrderingApp.api.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.upgrad.FoodOrderingApp.api.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.upgrad.FoodOrderingApp.api.controller.RestaurantControllerTest" />
+      <option name="METHOD_NAME" value="shouldNotUpdateRestaurantIfRestaurantIdIsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FoodOrderingAppApiApplication" />
+        <item itemvalue="JUnit.CategoryControllerTest" />
+        <item itemvalue="JUnit.OrderControllerTest" />
+        <item itemvalue="JUnit.RestaurantControllerTest" />
+        <item itemvalue="JUnit.RestaurantControllerTest.shouldNotUpdateRestaurantIfRestaurantIdIsEmpty" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2187793b-e64d-48fa-93dc-77d9c32a3738" name="Default" comment="" />
+      <created>1542000090979</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542000090979</updated>
+      <workItem from="1542000098842" duration="1023000" />
+      <workItem from="1542001793319" duration="1447000" />
+      <workItem from="1542003603480" duration="645000" />
+      <workItem from="1542005982828" duration="35683000" />
+      <workItem from="1542171375008" duration="1930000" />
+      <workItem from="1542258014778" duration="187590000" />
+      <workItem from="1543492206993" duration="13152000" />
+      <workItem from="1545232696710" duration="1008000" />
+      <workItem from="1603529789208" duration="12871000" />
+      <workItem from="1604024369859" duration="2545000" />
+      <workItem from="1604110147906" duration="2108000" />
+      <workItem from="1604202546766" duration="4897000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1603529937032">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1603529937032" />
+    <state x="501" y="258" key="Github.ShareDialog" timestamp="1604203940595">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="501" y="258" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1604203940595" />
+    <state width="1323" height="167" key="GridCell.Tab.0.bottom" timestamp="1604290129775">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="167" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604290129775" />
+    <state width="1323" height="167" key="GridCell.Tab.0.center" timestamp="1604290129774">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="167" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604290129774" />
+    <state width="1323" height="167" key="GridCell.Tab.0.left" timestamp="1604290129773">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="167" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604290129773" />
+    <state width="1323" height="167" key="GridCell.Tab.0.right" timestamp="1604290129775">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="167" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604290129775" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1603531579179">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603531579179" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1604202554089">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1604202554089" />
+  </component>
+</project>
