@@ -604,7 +604,10 @@ public class OrderControllerTest {
         restaurantEntity.setPhotoUrl("someurl");
         restaurantEntity.setRestaurantName("Famous Restaurant");
 
-
+      final String orderId = UUID.randomUUID().toString();
+        final Timestamp orderDate = new Timestamp(System.currentTimeMillis());
+        return new OrdersEntity(orderId, 200.50, couponEntity, 10.0,
+                orderDate, paymentEntity, customerEntity, addressEntity, restaurantEntity);
         
     }
 
