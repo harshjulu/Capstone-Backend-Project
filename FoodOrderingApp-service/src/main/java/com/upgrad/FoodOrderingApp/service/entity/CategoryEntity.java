@@ -72,6 +72,7 @@ public class CategoryEntity implements Serializable {
         return items;
     }
 
-   
+    public void setItems(List<ItemEntity> items) {
+        this.items = items;
     }
 }
