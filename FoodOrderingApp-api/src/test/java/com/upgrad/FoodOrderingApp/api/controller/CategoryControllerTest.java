@@ -132,9 +132,7 @@ public class CategoryControllerTest {
                 .andExpect(status().isOk())
                 .andReturn().getResponse().getContentAsString();
 
-        final CategoriesListResponse categoriesListResponse = new ObjectMapper().readValue(response, CategoriesListResponse.class);
-        assertNull(categoriesListResponse.getCategories());
-        verify(mockCategoryService, times(1)).getAllCategoriesOrderedByName();
+        
     }
 
 
