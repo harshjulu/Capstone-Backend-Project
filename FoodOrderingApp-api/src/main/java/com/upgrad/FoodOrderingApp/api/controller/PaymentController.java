@@ -50,7 +50,7 @@ public class PaymentController {
         //Creating PaymentListResponse by adding list of PaymentResponse to it
         PaymentListResponse paymentListResponse = new PaymentListResponse()
                 .paymentMethods(paymentResponses);
-        
+        return new ResponseEntity<PaymentListResponse>(paymentListResponse, HttpStatus.OK);
 
     }
 }
