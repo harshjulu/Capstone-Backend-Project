@@ -37,7 +37,7 @@ public class ItemController {
     public ResponseEntity<ItemListResponse> getTopFiveItemsByPopularity (@PathVariable(value = "restaurant_id")final String restaurantUuid) throws RestaurantNotFoundException {
 
         //Calls restaurantByUUID method of restaurantService to get the restaurant entity.
-        
+        RestaurantEntity restaurantEntity = restaurantService.restaurantByUUID(restaurantUuid);
 
         //Calls getItemsByPopularity method of itemService to get the ItemEntity.
         List<ItemEntity> itemEntities = itemService.getItemsByPopularity(restaurantEntity);
