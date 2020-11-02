@@ -189,7 +189,7 @@ public class CustomerController {
         UpdatePasswordResponse updatePasswordResponse = new UpdatePasswordResponse()
                 .id(updatedCustomerEntity.getUuid())
                 .status("CUSTOMER PASSWORD UPDATED SUCCESSFULLY");
-
+       return new ResponseEntity<UpdatePasswordResponse>(updatePasswordResponse,HttpStatus.OK);
         
     }
 
