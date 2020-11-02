@@ -60,7 +60,6 @@ public class CategoryItemEntity implements Serializable {
         return category;
     }
 
-    public void setCategory(CategoryEntity category) {
-        this.category = category;
+    
     }
 }
