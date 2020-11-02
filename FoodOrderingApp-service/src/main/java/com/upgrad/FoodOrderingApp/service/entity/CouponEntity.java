@@ -72,6 +72,7 @@ public class CouponEntity implements Serializable {
         return percent;
     }
 
-    
+    public void setCategory(CategoryEntity category) {
+        this.category = category;
     }
 }
